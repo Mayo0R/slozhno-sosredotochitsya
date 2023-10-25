@@ -3,7 +3,7 @@
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
   background-color: var(--bg-color);
-  background-image: url(../images/cover-image-dark.png);
+  background-image: var(--bg-image);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -13,7 +13,7 @@
 
 .page.theme_light {
   background-color: var(--bg-color);
-  background-image: url(../images/cover-image-light.png);
+  background-image: var(--bg-image);
   font-family: var(--main-font, Raleway);
   font-size: var(--main-fontsize);
 }

@@ -17,6 +17,7 @@
   --rec-color: #FFF1F7;
   --main-font: IBM Plex Mono;
   --main-fontsize: 18px;
+  --bg-image: url(../images/cover-image-light.png);
 }
 
 @media (prefers-color-scheme: light) {
@@ -33,5 +34,6 @@
     --rec-color: #FFF1F7;
     --main-font: IBM Plex Mono;
     --main-fontsize: 18px;
+    --bg-image: url(../images/cover-image-light.png);
   }
 }
