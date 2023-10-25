@@ -10,10 +10,10 @@
   --header-color: #db00ff;
   --title-color: #000028;
   --text-color: #f1b2ce;
-  --accent-text-color: #FF0070;
-  --accent-text-color-hover: rgba(255, 0, 112, 0.40);
-  --decor-color: #FF0070;
-  --rec-color:#FF0070;
+  --accent-text-color: #ff0070;
+  --accent-text-color-hover: rgba(255, 0, 112, 0.4);
+  --decor-color: #ff0070;
+  --rec-color: #ff0070;
   --main-font: IBM Plex Mono;
   --main-fontsize: 18px;
   --bg-image: url(../images/cover-image-dark.png);

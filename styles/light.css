@@ -6,15 +6,15 @@
 
 .page.theme_light {
   /* Переменные светлой темы тут надо изменить*/
-  --bg-color:#FFF1F7;
+  --bg-color: #fff1f7;
   --accent-color: #ff8dcb;
   --header-color: #ffc2e6;
   --title-color: #353430;
   --text-color: #353430;
   --accent-text-color: #353430;
-  --accent-text-color-hover: rgba(50, 49, 45, 0.40);
+  --accent-text-color-hover: rgba(50, 49, 45, 0.4);
   --decor-color: #353430;
-  --rec-color: #FFF1F7;
+  --rec-color: #fff1f7;
   --main-font: IBM Plex Mono;
   --main-fontsize: 18px;
   --bg-image: url(../images/cover-image-light.png);
@@ -23,15 +23,15 @@
 @media (prefers-color-scheme: light) {
   :root {
     /* Дублируем переменные светлой темы */
-    --bg-color:#FFF1F7;
+    --bg-color: #fff1f7;
     --accent-color: #ff8dcb;
     --header-color: #ffc2e6;
     --title-color: #353430;
     --text-color: #353430;
     --accent-text-color: #353430;
-    --accent-text-color-hover: rgba(50, 49, 45, 0.40);
+    --accent-text-color-hover: rgba(50, 49, 45, 0.4);
     --decor-color: #353430;
-    --rec-color: #FFF1F7;
+    --rec-color: #fff1f7;
     --main-font: IBM Plex Mono;
     --main-fontsize: 18px;
     --bg-image: url(../images/cover-image-light.png);
