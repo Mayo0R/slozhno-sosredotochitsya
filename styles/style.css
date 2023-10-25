@@ -285,7 +285,7 @@
   .content {
     margin-inline-start: 20px;
     margin-inline-end: 20px;
-   /* margin-block-start: 240px;*/
+   margin-block-start: 40px;
   }
 
   .content-section {
