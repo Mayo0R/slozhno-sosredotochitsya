@@ -11,6 +11,10 @@
   --header-color: #ffc2e6;
   --title-color: #353430;
   --text-color: #353430;
+  --accent-text-color: #353430;
+  --accent-text-color-hover: rgba(50, 49, 45, 0.40);
+  --decor-color: #353430;
+  --rec-color: #FFF1F7;
   --main-font: IBM Plex Mono;
   --main-fontsize: 18px;
 }
@@ -23,6 +27,10 @@
     --header-color: #ffc2e6;
     --title-color: #353430;
     --text-color: #353430;
+    --accent-text-color: #353430;
+    --accent-text-color-hover: rgba(50, 49, 45, 0.40);
+    --decor-color: #353430;
+    --rec-color: #FFF1F7;
     --main-font: IBM Plex Mono;
     --main-fontsize: 18px;
   }

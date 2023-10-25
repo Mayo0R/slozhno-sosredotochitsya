@@ -28,7 +28,7 @@
 .decor {
   position: absolute;
   right: 28px;
-  color: var(--accent-color);
+  color: var(--rec-color);
   font-weight: 400;
   line-height: 25px;
 }
@@ -39,8 +39,8 @@
   height: 9px;
   width: 9px;
   border-radius: 50%;
-  background-color: var(--accent-color);
-  filter: drop-shadow(0px 0px 4px var(--accent-color));
+  background-color: var(--rec-color);
+  filter: drop-shadow(0px 0px 4px var(--rec-color));
   margin-inline-start: 10px;
   margin-block-start: 8px;
 }
@@ -59,8 +59,8 @@
 .decorated-zone::after {
   content: "";
   position: absolute;
-  border-block-end: 1px solid var(--accent-color);
-  border-inline-start: 1px solid var(--accent-color);
+  border-block-end: 1px solid var(--decor-color);
+  border-inline-start: 1px solid var(--decor-color);
   bottom: 20px;
   width: 25px;
   height: 25px;
@@ -68,8 +68,8 @@
 .decorated-zone::before {
   content: "";
   position: absolute;
-  border-block-start: 1px solid var(--accent-color);
-  border-inline-end: 1px solid var(--accent-color);
+  border-block-start: 1px solid var(--decor-color);
+  border-inline-end: 1px solid var(--decor-color);
   right: 0;
   inline-size: 25px;
   block-size: 25px;
@@ -108,7 +108,7 @@
 }
 
 .header__theme-menu-button {
-  color: var(--accent-color);
+  color: var(--accent-text-color);
   font-weight: 400;
   line-height: 18px; /* 100% */
   background-color: transparent;
@@ -116,7 +116,7 @@
 }
 
 .header__theme-menu-button_active {
-  border: 1px solid var(--accent-color);
+  border: 1px solid var(--accent-text-color);
   padding-inline-start: 13px;
   padding-inline-end: 13px;
   pointer-events: none;
@@ -124,14 +124,14 @@
 
 .header__theme-menu-button:hover {
   cursor: pointer;
-  border: 1px solid rgba(255, 0, 112, 0.4);
+  border: 1px solid var(--accent-text-color-hover);
   padding-inline-start: 13px;
   padding-inline-end: 13px;
 }
 
 .header__theme-menu-button:focus-visible {
   cursor: pointer;
-  border-block-end: 1px solid var(--accent-color);
+  border-block-end: 1px solid var(--accent-text-color);
   outline: none;
 }
 
@@ -166,7 +166,7 @@
 
 .content__title {
   display: flex;
-  color: var(--accent-color);
+  color: var(--accent-text-color);
   font-size: var(--main-fontsize);
   line-height: 23.4px; /* 130% */
   font-weight: 700;
