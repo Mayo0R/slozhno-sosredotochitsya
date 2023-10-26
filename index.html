@@ -14,10 +14,11 @@
     <title>Сложно сосредоточиться</title>
     <link rel="icon" href="./images/favicon.ico" sizes="any" />
     <link rel="icon" href="./images/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./images/mobile-icon.png" />
   </head>
   <body class="page">
     <header class="header decorated-zone">
-      <div aria-hidden="true" class="decor">REC</div>
+      <span aria-hidden="true" class="decor">REC</span>
       <nav class="header__theme-menu">
         <ul class="header__theme-menu-list">
           <li class="header__theme-menu-item">
@@ -54,8 +55,7 @@
       <section class="content-section">
         <h2 class="content__title">Почему сосредоточиться так сложно</h2>
         <div class="card__container">
-          <!--тут див в диве так надо везде ниже-->
-          <div class="card">
+          <article class="card">
             <h3 class="title-decor">Многозадачность</h3>
             <p class="content__text-block">
               Особенно сложно сосредоточиться, когда задач много и все они —
@@ -65,6 +65,7 @@
               <a
                 href="https://dana.org/article/multicosts-of-multitasking/"
                 class="link_decor"
+                target="_blank"
                 >выяснили</a
               >, что мозгу тяжело концентрироваться даже на двух делах
               одновременно. А когда в поле внимания попадает несколько важных
@@ -72,8 +73,8 @@
               «гормоны стресса». Из-за этого мы работаем невнимательно:
               ошибаемся и быстро устаём.
             </p>
-          </div>
-          <div class="card">
+          </article>
+          <article class="card">
             <h3 class="title-decor">Дофамин</h3>
             <p class="content__text-block">
               С гормонами стресса всё понятно, но дальше — ещё интереснее. В
@@ -85,13 +86,13 @@
               чувствуем удовольствие. Получается замкнутый круг: чем больше
               отвлекаешься, тем больше удовольствия получаешь.
             </p>
-          </div>
+          </article>
         </div>
       </section>
       <section class="content-section">
         <h2 class="content__title">Что снижает концентрацию внимания?</h2>
         <div class="cart__container-column">
-          <div class="card">
+          <article class="card">
             <h3 class="title-decor">Многозадачность</h3>
             <p class="content__text-block">
               Как концентрация может снижаться из-за… концентрации? Любая
@@ -101,8 +102,8 @@
               собранными всё время — невозможно. Концентрация — мышца, и она
               может не выдержать, если не давать ей отдохнуть.
             </p>
-          </div>
-          <div class="card">
+          </article>
+          <article class="card">
             <h3 class="title-decor">Еда</h3>
             <p class="content__text-block">
               «Быстрые углеводы» — сахар, белый хлеб, сладости — молниеносно
@@ -112,8 +113,8 @@
               углеводов» заканчивается, мы чувствуем усталость и сонливость. И
               хотим ещё больше быстрых углеводов.
             </p>
-          </div>
-          <div class="card">
+          </article>
+          <article class="card">
             <h3 class="title-decor">Гаджеты</h3>
             <p class="content__text-block">
               Да-да, это та самая ситуация, когда на экране ноутбука — код, в
@@ -124,7 +125,7 @@
               Вот и получается, что чем больше времени мы проводим в гаджетах,
               тем больше времени затем нужно, чтобы вернуться к работе.
             </p>
-          </div>
+          </article>
         </div>
       </section>
       <section class="content-section">
@@ -165,6 +166,7 @@
               <a
                 href="https://www.sciencedirect.com/science/article/abs/pii/S0272494415000328"
                 class="link_decor"
+                target="_blank"
                 >показал</a
               >, что созерцание природы повышает концентрацию, в то время как
               после просмотра городских пейзажей она наоборот понижается. Можно
@@ -193,44 +195,44 @@
           </div>
         </div>
       </section>
-      <div class="gallery">
-        <h3 class="title-decor">А можно в картинках?</h3>
+      <section class="gallery">
+        <h2 class="title-decor">А можно в картинках?</h2>
         <div class="pictures">
           <img
-            class="picture-1"
+            class="picture"
             src="./images/sunset.png"
             alt="sunset"
             loading="lazy"
           />
           <img
-            class="picture-2"
+            class="picture"
             src="./images/ice-cream.png"
             alt="ice-cream"
             loading="lazy"
           />
           <img
-            class="picture-3"
+            class="picture"
             src="./images/tape.png"
             alt="tape"
             loading="lazy"
           />
           <img
-            class="picture-4"
+            class="picture"
             src="./images/books.png"
             alt="books"
             loading="lazy"
           />
           <img
-            class="picture-5"
+            class="picture"
             src="./images/street.png"
             alt="street"
             loading="lazy"
           />
         </div>
-      </div>
+      </section>
     </main>
     <footer class="footer decorated-zone">
-      <h5 class="footer__title">focus</h5>
+      <h2 class="footer__title">focus</h2>
     </footer>
     <script src="./scripts/script.js"></script>
   </body>

@@ -37,3 +37,10 @@
     --bg-image: url(../images/cover-image-light.png);
   }
 }
+
+.page.theme_light {
+  background-color: var(--bg-color);
+  background-image: var(--bg-image);
+  font-family: var(--main-font, Courier);
+  font-size: var(--main-fontsize);
+}
