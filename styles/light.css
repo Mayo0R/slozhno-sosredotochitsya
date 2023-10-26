@@ -46,10 +46,9 @@
   }
 }
 
-/*.page.theme_light {
+.page.theme_light {
   background-color: var(--bg-color);
   background-image: var(--bg-image);
-  font-family: var(--main-font, Courier);
+  font-family: var(--main-font, Raleway);
   font-size: var(--main-fontsize);
 }
-*/
