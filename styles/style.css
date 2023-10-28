@@ -18,7 +18,6 @@
   grid-template-rows: 1fr min-content 1fr;
   min-block-size: 668px;
   block-size: 100vh;
-
 }
 
 .decor {
@@ -251,8 +250,8 @@
   display: grid;
   margin-inline-start: 10px;
   margin-inline-end: 10px;
-  block-size: 100vh;
   min-block-size: 668px;
+  block-size: 100vh;
 }
 
 .footer__title {
@@ -407,8 +406,4 @@
   .footer__title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
-}
-
-* {
-  outline: 1px solid yellow;
 }
